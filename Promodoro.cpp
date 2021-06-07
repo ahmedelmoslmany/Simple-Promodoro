@@ -71,7 +71,7 @@ void Promodoro_Time(){
 	int period_min=26; // Counting from 26 to 1, that mean 25.
 	while(--period_min){
 		cout<<"Still working until << "<<period_min<<" >> min"<<endl;
-		Sleep(milesecond*10);
+		Sleep(milesecond*60);
 		system ("CLS"); //Clear Screen to print real time until rest. 
 	}
 }
@@ -81,7 +81,7 @@ void break_time(){
 	int Break=6; // Counting from 6 to 1, that mean 5.
 	while(--Break){
 		cout<<"Still resting until << "<<Break<<" >> min"<<endl;
-		Sleep(milesecond*10);
+		Sleep(milesecond*60);
 		system ("CLS"); //Clear Screen to print real time until promodoro. 
 	}
 }
@@ -91,7 +91,7 @@ int Long_break(){
 	int L_Break=16; // Counting from 16 to 1, that mean 15.
 	while(--L_Break){
 		cout<<"Still resting until << "<<L_Break<<" >> min"<<endl;
-		Sleep(milesecond*10);
+		Sleep(milesecond*60);
 		system ("CLS"); //Clear Screen to print real time until promodoro. 
 	}
 	return 0;
